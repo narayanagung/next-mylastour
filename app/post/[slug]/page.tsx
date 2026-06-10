@@ -123,6 +123,7 @@ export default async function PostPage({
 							sizes="(max-width: 768px) 100vw, 1200px"
 							className="w-full rounded-lg object-cover lg:w-190 mx-auto border-2 border-gray-100"
 							quality={80}
+							loading="eager"
 						/>
 					))}
 				</div>

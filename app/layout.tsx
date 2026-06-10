@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 	metadataBase: new URL("https://www.lastour.my.id"),
 
 	title: {
-		default: "endless journey",
+		default: "endless journey | mylastour)",
 		template: "%s | mylastour",
 	},
 
