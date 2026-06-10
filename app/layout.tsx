@@ -16,17 +16,19 @@ export const metadata: Metadata = {
 	metadataBase: new URL("https://www.lastour.my.id"),
 
 	title: {
-		default: "endless journey | mylastour)",
+		default: "endless journey | mylastour",
 		template: "%s | mylastour",
 	},
 
-	description: "narayanagung's personal photo sharing web",
+	description:
+		"a personal motorcycle travel journal documenting roads, forgotten places, important and unimportant destinations,strange phenomenon, and the quiet moments found across Bali",
 
 	openGraph: {
-		title: "my last tour",
-		description: "narayanagung personal web",
+		title: "mylastour",
+		description:
+			"a personal motorcycle travel journal documenting roads, forgotten places, important and unimportant destinations,strange phenomenon, and the quiet moments found across Bali",
 		url: "https://www.lastour.my.id",
-		siteName: "my last tour",
+		siteName: "mylastour",
 		type: "website",
 	},
 };
