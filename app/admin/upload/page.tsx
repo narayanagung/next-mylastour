@@ -80,7 +80,7 @@ export default async function UploadPage({
 				<input
 					type="file"
 					name="photos"
-					className="border p-2 rounded-sm cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:bg-black dark:file:bg-gray-100 file:text-gray-100 dark:file:text-gray-950 file:cursor-pointer hover:file:opacity-80"
+					className="border p-2 rounded-sm cursor-pointer file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0  file:bg-gray-100 file:text-gray-950 file:cursor-pointer hover:file:opacity-80"
 					multiple
 					required
 				/>

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 	metadataBase: new URL("https://www.lastour.my.id"),
 
 	title: {
-		default: "mylastour",
+		default: "endless journey",
 		template: "%s | mylastour",
 	},
 
@@ -41,7 +41,7 @@ export default function RootLayout({
 			lang="en"
 			className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
 		>
-			<body className="min-h-full flex flex-col bg-gray-100 text-gray dark:bg-gray-950 dark:text-gray-100">
+			<body className="min-h-full flex flex-col bg-gray-950 text-gray-100">
 				{children}
 			</body>
 		</html>

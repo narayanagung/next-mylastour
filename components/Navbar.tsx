@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { isAdmin } from "@/lib/isAdmin";
-import { LogOut, CirclePlus } from "lucide-react";
+import { LogIn, LogOut, CirclePlus } from "lucide-react";
 
 export default async function Navbar() {
 	const admin = await isAdmin();
@@ -11,7 +11,7 @@ export default async function Navbar() {
 				<Link
 					title="go to homepage"
 					href="/"
-					className="font-semibold rounded-lg cursor-pointer py-2 pr-4 hover:text-gray-500"
+					className="font-semibold cursor-pointer py-2 pr-4 hover:text-gray-500"
 				>
 					home
 				</Link>
@@ -19,7 +19,7 @@ export default async function Navbar() {
 				<Link
 					title="why"
 					href="/about"
-					className="font-semibold rounded-lg cursor-pointer py-2 pr-4 hover:text-gray-500"
+					className="font-semibold cursor-pointer py-2 pr-4 hover:text-gray-500"
 				>
 					about
 				</Link>
@@ -30,7 +30,7 @@ export default async function Navbar() {
 						<Link
 							title="add new post"
 							href="/admin/upload"
-							className="border p-2 rounded-lg cursor-pointer py-2 px-4 bg-black text-gray-100 hover:opacity-80 flex items-center gap-2"
+							className="border p-2 rounded-md cursor-pointer py-2 px-4 bg-black text-gray-100 hover:opacity-80 flex items-center gap-2"
 						>
 							<CirclePlus />
 						</Link>
@@ -39,7 +39,7 @@ export default async function Navbar() {
 							<button
 								title="bye now"
 								type="submit"
-								className="border p-2 rounded-lg cursor-pointer py-2 px-4 bg-black text-gray-100 hover:opacity-80"
+								className="border p-2 rounded-md cursor-pointer py-2 px-4 bg-black text-gray-100 hover:opacity-80"
 							>
 								<LogOut />
 							</button>
@@ -47,11 +47,11 @@ export default async function Navbar() {
 					</>
 				) : (
 					<Link
-						title="welcome back"
+						title="hello there"
 						href="/admin/login"
-						className="border p-2 rounded-lg cursor-pointer py-2 px-4 bg-black text-gray-100 hover:opacity-80"
+						className="border p-2 rounded-md cursor-pointer py-2 px-4 bg-black text-gray-100 hover:opacity-80"
 					>
-						login
+						<LogIn />
 					</Link>
 				)}
 			</div>

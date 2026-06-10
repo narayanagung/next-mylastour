@@ -70,7 +70,9 @@ export default function AboutPage() {
 					title="all credit to Tsukumizu"
 					width={1379}
 					height={974}
-					className="w-full h-auto rounded-lg border-2 dark:border-gray-100 border-gray-950"
+					sizes="(max-width: 768px) 100vw, 1200px"
+					className="w-full max-w-3xl mx-auto h-auto rounded-lg border-2 border-gray-100"
+					quality={80}
 				/>
 
 				<p className="font-bold text-2xl md:text-4xl leading-relaxed mb-5 mt-6 max-w-3xl mx-auto wrap-break-words text-center">
@@ -141,7 +143,9 @@ export default function AboutPage() {
 					title="all credit to Tsukumizu"
 					width={1459}
 					height={1041}
-					className="w-full h-auto rounded-lg border-2 dark:border-gray-100 border-gray-950"
+					sizes="(max-width: 768px) 100vw, 1200px"
+					className="w-full max-w-3xl mx-auto h-auto rounded-lg border-2 border-gray-100"
+					quality={80}
 				/>
 			</main>
 			<Footer />

@@ -11,7 +11,7 @@ export default function NotFound() {
 
 				<p className="text-2xl font-semibold mb-2">you got lost</p>
 
-				<p className="dark:text-gray-400 text-gray-600 mb-6 max-w-sm">
+				<p className="text-gray-400 mb-6 max-w-sm">
 					the page you are looking for does not exist.
 				</p>
 
